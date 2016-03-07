@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/shakacode/react_on_rails
+  revision: 3074568bb8d493e758b7a99f26c37e43cc747add
+  branch: new-api-shared-redux-stores
+  specs:
+    react_on_rails (4.0.0.beta.1)
+      connection_pool
+      execjs (~> 2.5)
+      foreman
+      rails (>= 3.2)
+      rainbow (~> 2.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -113,12 +125,6 @@ GEM
     rake (10.5.0)
     rdoc (4.2.2)
       json (~> 1.4)
-    react_on_rails (3.0.6)
-      connection_pool
-      execjs (~> 2.5)
-      foreman
-      rails (>= 3.2)
-      rainbow (~> 2.1)
     ref (2.0.0)
     sass (3.4.21)
     sass-rails (5.0.4)
@@ -168,7 +174,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.5.1)
-  react_on_rails (= 3.0.6)
+  react_on_rails!
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
